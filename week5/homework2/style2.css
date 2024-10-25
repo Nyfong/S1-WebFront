@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  background-color: red;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  animation: mymove 3s ease-in-out infinite;
+}
+
+.circle1 {
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+.circle2 {
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+}
+
+.circle3 {
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+.circle4 {
+  animation-duration: 3s;
+  animation-delay: 1.5s;
+}
+
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -70px;
+  }
+  100% {
+    top: 0px;
+  }
+}
