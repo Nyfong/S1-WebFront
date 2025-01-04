@@ -1,0 +1,17 @@
+/* p,
+.test1 {
+  writing-mode: horizontal-tb;
+}
+p,
+.test2 {
+  writing-mode: vertical-rl;
+}
+
+p,
+.test3 {
+  writing-mode: sideways-lr;
+}
+span,
+.test2 {
+  writing-mode: vertical-rl;
+} */

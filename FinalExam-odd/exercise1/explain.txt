@@ -1,0 +1,31 @@
+
+The key design decisions in this mobile-first implementation:
+
+1. Layout Structure:
+   - Fixed header for easy navigation
+   - Full-width hero section with centered content
+   - Single-column layout for the contact form
+   - Generous padding and spacing for touch-friendly interactions
+
+2. Typography:
+   - System fonts for optimal performance
+   - Larger font sizes on desktop for better readability
+   - Clear hierarchy with distinct heading and body text styles
+
+3. Mobile-First Features:
+   - Stacked form elements taking full width
+   - Touch-friendly input fields with adequate spacing
+   - Full-width buttons on mobile, auto-width on desktop
+   - Responsive text sizing that scales up on larger screens
+
+4. Color and Contrast:
+   - Blue primary color (#2563eb) for CTAs and interactive elements
+   - High contrast for text elements
+   - Subtle backgrounds to maintain focus on content
+   - Consistent color scheme throughout
+
+5. User Experience:
+   - Smooth transitions on interactive elements
+   - Clear visual feedback on hover states
+   - Properly associated form labels
+   - Required field indicators
